@@ -49,8 +49,7 @@
     transition: box-shadow 0.3s
     cursor: pointer
     margin-top: 67px
-    margin-right: 13px
-    margin-left: 13px
+    margin-right: 26px
     font-size: 15px
     line-height: 18px
     &--primary
@@ -58,13 +57,18 @@
       color: #FFFFFF
       font-weight: 500
       margin-bottom: 12px
+      &:hover
+        transition: all 0.3s ease 0s
+        background: #FAF9F9
+        color: #DB0707
     &--light
       color: #000000
       background: #FAF9F9
-      border: 1px solid #E5E5E5
-      text-align: left
+
       padding-left: 20px
       font-weight: 300
+      &::placeholder
+        color: #000000
     &:active, &:focus
       outline: none
   &__consent
@@ -97,3 +101,5 @@
       font-weight: 300
     &:active, &:focus
       outline: none
+.form-inline
+  justify-content: center

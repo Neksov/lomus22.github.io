@@ -1,0 +1,77 @@
+.fifthscreen
+  padding-top: 70px
+  &__title
+    display: flex
+    font-style: normal
+    font-weight: bold
+    font-size: 30px
+    line-height: 36px
+    text-align: center
+    color: #000000
+    max-width: 557px
+    margin: auto
+  &__firstline
+    display: flex
+    margin-top: 59px
+    flex-wrap: wrap
+  &__pointline
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin: auto
+    text-align: center
+    &-ellipse
+      position: relative
+      top: -7px
+      width: 14px
+    &::before
+      content: ''
+      display: block
+      border: 1px solid #DDA859
+      width: 358px
+  &__text
+    width: 300px
+  &__secondline
+    display: flex
+    justify-content: space-between
+    margin: auto
+    margin-top: 16px  
+    flex-wrap: wrap
+  &__pointline2
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin: auto
+    text-align: center
+    &::before
+      content: ''
+      display: block
+      border: 1px solid #DDA859
+      width: 261px
+  &__btn
+    width: 361px
+    height: 60px
+    border: none
+    border-radius: 30px
+    box-sizing: border-box
+    text-transform: uppercase
+    border-radius: 35px
+    transition: box-shadow 0.3s
+    cursor: pointer
+    font-size: 15px
+    line-height: 18px
+    display: block
+    margin: auto
+    margin-top: 29px
+    &--primary
+      background: #DB0707
+      color: #FFFFFF
+      font-weight: 500
+      &:hover
+        transition: all 0.3s ease 0s
+        background: #FAF9F9
+        color: #DB0707
+        border: 2px solid #DB0707
+    &:active, &:focus
+      outline: none
+

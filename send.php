@@ -1,7 +1,6 @@
 <?php
 
-$userName = $_POST['userName'];
-$userPhone = $_POST['userPhone'];
+$userEmail = $_POST['userEmail'];
 
 
 
@@ -33,7 +32,7 @@ try {
         }//для отправки на ящик заполнителя
     // Content
     $mail->Subject = 'Новая заявка с сайта';
-    $mail->Body    = "Имя пользователя: ${userName}, его(её) телефон: ${userPhone}.";
+    $mail->Body    = " E-mail: ${userEmail}";
 
 
 
