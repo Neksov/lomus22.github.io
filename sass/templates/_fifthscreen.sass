@@ -21,9 +21,13 @@
     margin: auto
     text-align: center
     &-ellipse
-      position: relative
+      position: absolute
+      width: 15px
+      height: 15px
+      z-index: 999
+      background-color: #DDA859
+      border-radius: 50%
       top: -7px
-      width: 14px
     &::before
       content: ''
       display: block
@@ -31,11 +35,12 @@
       width: 358px
   &__text
     width: 300px
+    margin-top: 10px
   &__secondline
     display: flex
     justify-content: space-between
     margin: auto
-    margin-top: 16px  
+    margin-top: 25px  
     flex-wrap: wrap
   &__pointline2
     display: flex
